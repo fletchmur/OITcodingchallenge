@@ -2,7 +2,6 @@ class Board:
 
     def __init__(self):
         self.data = [[0 for i in range(3)] for i in range(3)]
-        print(self.data)
 
     def get(self,x,y):
         return self.data[x][y]
